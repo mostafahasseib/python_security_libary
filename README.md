@@ -19,15 +19,48 @@ The library has also classes for socket encryption with Diffie Hellman, AES and 
 Symmetric encryption classes:
 AES, Blowfish, CAST, DES, 3DES, RC2, RC4, AES - Blowfish - 3DES
 
-All this classes have the same methods:
-encrypt and decrypt
+All this classes can only encrypt and decrypt
 
 Asymmetric ciphers:
 RSA
 
-This class has the following methods:
+This class can do the following:
 
-generate_new_key, import_key, store_key, store_key_encrypted, store_public_key, encrypt, decrypt, encrypt_aes, decrypt_aes, encrypt_file, decrypt_file, sign, verify, sign_file, verify_file, show_private_key, show_public_key
+Generate RSA keys
+
+Import RSA keys from a file
+
+Store RSA key with AES encryption in a file
+
+Store the public key in a file
+
+Encrypt only with RSA
+
+Decrypt with RSA only
+
+Encrypt with RSA and AES
+
+Decrypt with RSA and AES
+
+Encrypt a file with RSA and AES
+
+Decrypt a file with RSA and AES
+
+Sign data
+
+Verify data
+
+Sign a file
+
+Verify a file
+
+Show private an public key
 
 # Socket Encryption Classes
-socket_encryption_dh_aes, socket_encryption_rsa_aes, socket_encryption_authentication_rsa_aes, socket_encryption_authentication_rsa_aes_dh, 
+Diffie Hellman and AES
+
+RSA and AES (Server only)
+
+RSA and AES (Client and Server)
+
+RSA, AES and Diffie Hellman (Client and Server)
