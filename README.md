@@ -36,7 +36,7 @@ Store the public key in a file
 
 Encrypt only with RSA
 
-Decrypt with RSA only
+Decrypt only with RSA
 
 Encrypt with RSA and AES
 
