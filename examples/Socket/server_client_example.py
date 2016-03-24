@@ -5,7 +5,7 @@
 
 # This is because the library is in another directory
 import sys
-sys.path.insert(0, '../')
+sys.path.insert(0, '../../')
 # This is used normaly
 from psl import *
 import time
@@ -32,8 +32,8 @@ sock_enc0.debug()
 sock_enc0.send("Test000")
 # Close socket
 sock_enc0.close()
-# Wait for user to continue
-test = raw_input("NEXT?")
+# Wait for 3 seconds
+time.sleep(3)
 
 
 
@@ -52,8 +52,8 @@ sock_enc1.debug()
 sock_enc1.send("Test000")
 # Close socket
 sock_enc1.close()
-# Wait for user to continue
-test = raw_input("NEXT?")
+# Wait for 3 seconds
+time.sleep(3)
 
 
 
@@ -72,8 +72,8 @@ sock_enc2.debug()
 sock_enc2.send("Test000")
 # Close socket
 sock_enc2.close()
-# Wait for user to continue
-test = raw_input("NEXT?")
+# Wait for 3 seconds
+time.sleep(3)
 
 
 

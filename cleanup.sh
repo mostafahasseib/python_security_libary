@@ -4,7 +4,8 @@
 rm psl.pyc
 rm .DS_Store
 
-#Clean the example folder
+#Clean the example folders
 rm examples/.DS_Store
-rm examples/server_rsa_public.key
-rm examples/server_rsa.key
+rm examples/RSA/.DS_Store
+rm examples/Socket/.DS_Store
+rm examples/AES/.DS_Store

@@ -5,7 +5,7 @@
 
 # This is because the library is in another directory
 import sys
-sys.path.insert(0, '../')
+sys.path.insert(0, '../../')
 # This is used normaly
 from psl import *
 
