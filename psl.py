@@ -1046,7 +1046,7 @@ class RSA_ENC(object):
 	# Input:	Filename (and location) for the key
 	# Return:	-
 	def store_public_key(self, key_loc):
-		open(filename, "wb").write(self.rsa_key.publickey().exportKey('PEM'))
+		open(key_loc, "wb").write(self.rsa_key.publickey().exportKey('PEM'))
 
 	# Encrypt a datablock with RSA (for small data)
 	# Input:	Decrypted datablock
